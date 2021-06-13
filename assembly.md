@@ -5,12 +5,28 @@ Report time, humidity, and temperature using Arduino.
 This page documents photographs of the hardware assembly and other
 details.
 
-In the photos shown below, the Arduino controller is on the left, the breadboard on the right.  On the breadboard, the DHT22 is on the left, thr RTC is on the right, and the connections from the Arduino are in the foreground.
+In the photos shown below, the Arduino controller is on the left, the breadboard
+on the right.  On the breadboard, the DHT22 is on the left, the RTC is on the
+right, and the connections from the Arduino are in the foreground.
+
+The Arduino board is mounted to a piece of cardboard using plastic standoffs.
+The breadboard is attached to the cardboard with sticky tape supplied with the
+breadboard.
+
+The Arduino has a USB connection on the left side of the board.  The USB
+provides power (5 VDC, 0.5 A) to the Arduino from the host computer, in addition
+to the serial interface.
+
+**NOTE**:
+In Linux, the account that wishes to communicate with the Arduino must be a
+member of the *dialout* group at the time of login.  If you (or the sysadmin)
+make that assignment while logged in, you must logout, then login again to gain
+the new group membership.
 
 ## Wiring
 
 Should any of the wiring become detached, consult the close-up photos
-provided in the images directory.
+provided in the [images directory](images/README.md).
 
 ## DHT22 Temperature and humidity sensor
 
