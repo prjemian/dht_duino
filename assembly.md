@@ -51,7 +51,9 @@ DHT22 `+` | `3.3v` or `5v` | red
 DHT22 `out` | `digital 2` | white
 DHT22 `-` | `GND` | black
 
-![Arduino Uno Rev3, full assembly](images/20210613_140714.jpg "Full assembly view of the Arduino Uno Rev3") 
+![Arduino Uno Rev3, full assembly](images/20210613_140714.jpg "Full assembly view of the Arduino Uno Rev3")
+
+Should the DHT22 fail or become disconnected, the values for RH and T will (probably) change to to `nan` (meaning not a number).
 
 ## DS3231 real-time-clock (RTC)
 
@@ -69,6 +71,10 @@ DS3231 `SDA` | `SDA` | grey
 DS3231 `SCL` | `SCL` | blue
 DS3231 `VCC` | `3.3v` or `5v` | red
 DS3231 `GND` | `GND` | black
+
+The internal time base in the RTC is set as the Arduino starts if needed to the date/time the Arduino code was compiled.  Once set, and protected by battery when unpowered, this can be expected to be correct for ~10 years.  The Arduino will report (via output to the serial port) if any other errors are detector with the RTC.
+
+The RTC has an on-board temperature sensor with 0.25 C precision.  This updates about every 10s.
 
 ## Breadboard
 
