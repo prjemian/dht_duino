@@ -4,33 +4,19 @@ Write time, humidity, and temperature to Serial
 
 COMPONENTS
 
- * DHT Digital Humidity & Temperature Sensor
+ * DHT Digital Humidity & Temperature Sensor (DHT library)
 
    How to use the DHT-22 sensor with Arduino Uno
    Temperature and humidity sensor
    More info: http://www.ardumotive.com/how-to-use-dht-22-sensor-en.html
    Dev: Michalis Vasilakis // Date: 1/7/2015 // www.ardumotive.com
 
- * DS3231 real-time-clock
+ * DS3231 real-time-clock (RtcDS3231 library)
       CONNECTIONS:
       DS3231 SDA --> SDA
       DS3231 SCL --> SCL
       DS3231 VCC --> 3.3v or 5v
       DS3231 GND --> GND
-
-  In [28]: print(buf)
-  b'\x00\x00======================================\r\ncompiled: Jun 12 2021 00:41:48\r\nRTC is older than compile time!  (Updating DateTime)\r\n2021-06-12 00:41:50  RH=43.70 % T=22.90 C % RTC_T=24.25 C\r\n2021-06-12 00:41:52  RH=43.70 % T=22.90 C % RTC_T=24.25 C\r\n'
-
-  2021-06-12 08:18:47  RH=42.30 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:18:49  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:18:51  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:18:53  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:18:55  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:18:57  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:18:59  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:19:01  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-  2021-06-12 08:19:03  RH=42.20 % T=24.90 C % RTC_T=25.75 C
-
  */
 
 //Libraries
