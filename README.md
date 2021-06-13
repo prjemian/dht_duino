@@ -2,6 +2,15 @@
 
 Report time, humidity, and temperature using Arduino.
 
+1. Plug in the Arduino USB cable
+2. Connect the serial port at 115200 BAUD
+3. Receive humidity and temperature every 2 seconds.
+
+If it takes more than 5 seconds for a report, something is wrong (hardware
+disconnected, system error, ...).
+
+The `dht_duino.py` (Python program) can read the reports.  See below for details.
+
 ## Hardware
 
 * Arduino (Uno Rev 3 or Mega)
