@@ -7,7 +7,14 @@ details.
 
 CONTENTS
 
-
+- [Assembly of the hardware](#assembly-of-the-hardware)
+  - [Wiring](#wiring)
+  - [DHT22 Temperature and humidity sensor](#dht22-temperature-and-humidity-sensor)
+  - [DS3231 real-time-clock (RTC)](#ds3231-real-time-clock-rtc)
+  - [Breadboard](#breadboard)
+  - [Arduino](#arduino)
+    - [Arduino Mega 1280](#arduino-mega-1280)
+    - [Arduino Uno Rev3](#arduino-uno-rev3)
 
 In the photos shown below, the Arduino controller is on the left, the breadboard
 on the right.  On the breadboard, the DHT22 is on the left, the RTC is on the

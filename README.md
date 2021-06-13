@@ -2,8 +2,6 @@
 
 Report time, humidity, and temperature using Arduino.
 
-* ![System overview, with Uno R3+](images/20210613_160104.jpg "System overview, with Uno R3+")
-
 1. Plug in the Arduino USB cable
 2. Connect the serial port at 115200 BAUD
 3. Receive humidity and temperature every 2 seconds.
@@ -25,6 +23,14 @@ ser.timeout = 5 (s)
 2021-06-13 15:09:03.395940 2021-06-12 00:48:37  RH=39.10 % T=24.10 C % RTC_T=25.00 C
 2021-06-13 15:09:05.410855 2021-06-12 00:48:39  RH=39.10 % T=24.10 C % RTC_T=25.00 C
 ```
+
+- [dht_duino](#dht_duino)
+  - [Hardware](#hardware)
+  - [Linux: Connect and locate the Arduino Serial Port](#linux-connect-and-locate-the-arduino-serial-port)
+  - [Linux: run `dht_duino.py` program](#linux-run-dht_duinopy-program)
+  - [Run the `dht_duino.py` test program](#run-the-dht_duinopy-test-program)
+
+* ![System overview, with Uno R3+](images/20210613_160104.jpg "System overview, with Uno R3+")
 
 ## Hardware
 
