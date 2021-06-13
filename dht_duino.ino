@@ -1,8 +1,10 @@
 /* dht_duino
 
+Write time, humidity, and temperature to Serial
+
 COMPONENTS
 
- * DHT Digital Hunidity & Temperature Sensor
+ * DHT Digital Humidity & Temperature Sensor
 
    How to use the DHT-22 sensor with Arduino Uno
    Temperature and humidity sensor
