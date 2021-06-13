@@ -59,8 +59,9 @@ void setup()
     Rtc.Begin();
     compiled = RtcDateTime(__DATE__, __TIME__);
     check_RTC_setup();
-    check_RTC_update();
+    rtc_now = Rtc.GetDateTime();
 
+    check_RTC_update();
     rtc_now = Rtc.GetDateTime();
 
     // never assume the Rtc was last configured by you, so
