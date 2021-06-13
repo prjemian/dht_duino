@@ -30,7 +30,9 @@ ser.timeout = 5 (s)
 2021-06-13 15:09:05.410855 2021-06-12 00:48:39  RH=39.10 % T=24.10 C % RTC_T=25.00 C
 ```
 
-Each line in the report has two dates (workstation and arduino time, probably different by fixed amount), RH (relative humidity, temperature, and temperature from the real-time clock).
+Each line in the report has two dates (workstation and arduino, offset by fixed
+amount), RH (relative humidity, from DHT22), temperature (T, from DHT22), and
+temperature (RTC_T, from real-time clock).
 
 * ![System overview, with Uno R3+](images/20210613_160104.jpg "System overview, with Uno R3+")
 
