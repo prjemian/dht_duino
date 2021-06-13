@@ -5,6 +5,10 @@ Report time, humidity, and temperature using Arduino.
 This page documents photographs of the hardware assembly and other
 details.
 
+CONTENTS
+
+
+
 In the photos shown below, the Arduino controller is on the left, the breadboard
 on the right.  On the breadboard, the DHT22 is on the left, the RTC is on the
 right, and the connections from the Arduino are in the foreground.
