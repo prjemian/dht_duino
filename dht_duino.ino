@@ -25,7 +25,7 @@ COMPONENTS
 #include <RtcDS3231.h>
 
 //Constants
-#define DHTPIN 2     // what pin we're connected to
+#define DHTPIN 2     // for DHT22
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 #define LOOP_DELAY_MS 20
 #define UPDATE_INTERVAL_MS 2000
